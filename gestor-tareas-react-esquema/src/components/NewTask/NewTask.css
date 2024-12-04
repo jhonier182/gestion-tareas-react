@@ -1,0 +1,91 @@
+.frm-task {
+  width: 90%;
+  max-width: 40rem;
+  margin: 0 auto;
+  padding: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(135deg, #6C63FF, #FF61D2);
+  border-radius: 25px;
+  box-shadow: 0 10px 30px rgba(108, 99, 255, 0.4);
+  z-index: 1;
+  transition: transform 0.3s ease;
+}
+
+.group-title-task, .group-description-task {
+  width: 90%;
+  max-width: 40rem;
+  margin: 1.5rem auto;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  font-size: 1.6rem;
+  border: none;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+fieldset > label {
+  margin-right: 2rem;
+  text-align: left;
+  font-weight: bold;
+  color: #fff;
+}
+
+.group-description-task > input,
+.group-title-task > input {
+  width: 100%;
+  height: 3rem;
+  font-size: 1.3rem;
+  padding: 1rem;
+  font-weight: 400;
+  border: none;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 3px 15px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.group-description-task > input:focus,
+.group-title-task > input:focus {
+  outline: none;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+.group-title-task > input {
+  width: 100%;
+  max-width: 30rem;
+  position: relative;
+  left: 0;
+}
+
+.group-description-task > input {
+  width: 100%;
+  max-width: 33rem;
+}
+
+.btn-new-task {
+  width: 15rem;
+  height: 3.5rem;
+  font-size: 1.2rem;
+  border: none;
+  background: linear-gradient(135deg, #FF3366, #FF6B6B);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 30px;
+  cursor: pointer;
+  margin-top: 2rem;
+  box-shadow: 0 5px 20px rgba(255, 51, 102, 0.4);
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+
+.btn-new-task:hover,
+.btn-new-task:active {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 25px rgba(255, 51, 102, 0.5);
+  background: linear-gradient(135deg, #FF6B6B, #FF3366);
+}

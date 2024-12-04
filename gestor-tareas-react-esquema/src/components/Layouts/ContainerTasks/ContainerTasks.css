@@ -1,0 +1,10 @@
+.container-tasks {
+  width: 80vw;
+  height: max-content;  
+  margin-top: 5rem;
+  background-color: var(--task-color);    
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.5rem;  
+}

@@ -1,0 +1,19 @@
+.info-tasks {
+  width: 80%;  
+  margin: 0 auto;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: #333;
+  font-size: 1.8rem;  
+  font-weight: bold;
+}
+
+.task-pending {
+  color: #ff6347;
+  font-weight: bold;
+}
+
+.task-done {
+  color: #32cd32;
+  font-weight: bold;
+}
